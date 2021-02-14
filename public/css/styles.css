@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+}
+
+/* Header */
+
+.navbar {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  letter-spacing: 5px;
+  background-color: #686464;
+}
+
+.navbar-nav  li a:hover {
+  color: #fff !important;
+}
+
+/*Home */
+img {
+  height: 20rem;
+  width: 19rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.home-content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #686464;
+  color: black;
+}
+
+.parallax {
+  background-image: url("/images/microphone.jfif");
+  height: 750px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.header {
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+}
+
+.header h1 {
+  margin-bottom: 1rem;
+}
+
+.header .btn {
+  color: black;
+  margin-top: 1rem;
+}
+
+/* Footer */
+
+.footer {
+	position: relative;
+  padding-top: .25rem;
+  padding-bottom: .5rem;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #686464;
+  color: #black;
+  font-size: 12px;
+}
+
+.footer img {
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 0;
+}
+
+.footer image:hover {
+  color: white;
+}
+
+.footer p {
+  margin-bottom: .25rem;
+  margin-top: .25rem;
+}
+
+.footer a {
+  margin-bottom: .5rem;
+  color: black;
+  text-decoration: none;
+}
+
+.footer  a:hover {
+  color: #fff;
+}
